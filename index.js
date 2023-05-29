@@ -28,7 +28,7 @@ const questions = [
     },
 ];
 
-inquirer.prompt(questions).then(answers) => {
+inquirer.prompt(questions).then((answers) => {
     const {text, textColor, shape, ShapeColor } = answers;
     const shapeObj = new Shape();
     let svgElement = '';
@@ -46,7 +46,7 @@ inquirer.prompt(questions).then(answers) => {
             square.setColor(ShapeColor);
             svgElement = square.render();
             break;
-        case 'Triangle'
+        case 'Triangle':
             const triangle = new Triangle();
             triangle.setColor(ShapeColor);
             svgElement = triangle.render();
@@ -64,4 +64,4 @@ inquirer.prompt(questions).then(answers) => {
 
     fs.writeFileSync('logo.svg', finalSvg);
     consonle.console.log('Your logo.svg has been generated');
-}
+});
