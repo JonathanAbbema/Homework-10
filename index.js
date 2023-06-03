@@ -1,4 +1,4 @@
-const {Shape, Circle, Square, Triangle} = require('./shapes');
+const {Shape, Circle, Square, Triangle} = require('./shapes.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -60,7 +60,7 @@ inquirer.prompt(questions).then((answers) => {
     }
     const finalSvg = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     ${svgElement}
-    <text x="${x}" y="${y}" fill="${textColor}" font-size="50" text-anchor="middle">${text} </text> </svg>`;
+    <text x="${x}" y="${y}" fill="${textColor}" font-size="50" text-anchor="middle">${text}</text> </svg>`;
 
     fs.writeFileSync('logo.svg', finalSvg);
     console.log('Your logo.svg has been generated');

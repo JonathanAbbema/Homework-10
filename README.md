@@ -14,5 +14,10 @@ The prompts asks for what shape, the color of the shape, the color of the text, 
 When the user correctly responds to the prompts the terminal will indicate that "Your logo.svg has been generated" 
 If the user responds incorrectly to the prompts the logo.svg will not be created. 
 
-## OUTPUT
-![`circle`](./examples/Circle.svg)
+## Application Demo 
+<video width="450" height="450" controls>
+  <source src="./Example_Vid/Example_Video.webm" type="video/mp4"> Link to video </source>
+</video>
+
+## Github Repo Link
+<a href="https://jonathanabbema.github.io/Homework-10/"> Link to repo </a>
