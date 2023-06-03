@@ -16,8 +16,8 @@ If the user responds incorrectly to the prompts the logo.svg will not be created
 
 ## Application Demo 
 <video width="450" height="450" controls>
-  <source src="./Example_Vid/Example_Video.webm" type="video/mp4"> Link to video </source>
+  <source src="Example_Vid/Example_Video.webm" type="video/mp4"> Link to video </source>
 </video>
 
 ## Github Repo Link
-<a href="https://jonathanabbema.github.io/Homework-10/"> Link to repo </a>
+<a href="https://github.com/JonathanAbbema/Homework-10.git"> Link to repo </a>
