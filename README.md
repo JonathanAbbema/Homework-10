@@ -15,7 +15,7 @@ When the user correctly responds to the prompts the terminal will indicate that 
 If the user responds incorrectly to the prompts the logo.svg will not be created. 
 
 ## Github Repo Link
-<a href="https://github.com/JonathanAbbema/Homework-10.git"> Link to repo </a>
+<a href="https://github.com/JonathanAbbema/Homework-10"> Link to repo </a>
 
 ## Application Demo 
 <video width="450" height="450" controls>
